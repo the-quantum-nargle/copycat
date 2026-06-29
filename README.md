@@ -6,7 +6,7 @@
 
 **Copy anything from the terminal to your clipboard.**
 
-`copycat` is a tiny macOS CLI that reads files or piped input and puts them on your clipboard: text, images, or command output. No more selecting text in a terminal window or saving screenshots to disk just to paste them somewhere else.
+`copycat` is a small Mac CLI. Point it at a file or pipe something into it, and the contents land on your clipboard. Text files, images, command output: whatever. No more dragging to select terminal text or saving screenshots just to paste them.
 
 ---
 
@@ -37,7 +37,7 @@ make install
 copycat notes.txt
 ```
 
-Paste into Notes, Slack, an email, or anywhere else.
+Paste into Notes, Slack, an email, wherever.
 
 ### Copy an image
 
@@ -45,7 +45,7 @@ Paste into Notes, Slack, an email, or anywhere else.
 copycat screenshot.png
 ```
 
-Paste into Messages, Figma, or Preview. Works with `png`, `jpg`, `jpeg`, `gif`, `bmp`, `tiff`, and `webp`.
+Paste into Messages, Figma, Preview. Works with `png`, `jpg`, `jpeg`, `gif`, `bmp`, `tiff`, and `webp`.
 
 ### Copy command output
 
@@ -73,12 +73,12 @@ copycat --version
 
 ---
 
-## Why copycat?
+## Why use it?
 
-- **One command.** No selecting, no saving, no context-switching.
-- **Images too.** Most terminal copy tools only handle text.
-- **Pipes naturally.** It works the way you already use the shell.
-- **Mac-native.** Built with `NSPasteboard`, so it plays nicely with every app.
+- **One command.** No selecting, no saving, no jumping around.
+- **Images too.** Most clipboard tools from the terminal only do text.
+- **Works with pipes.** It fits how you already use the shell.
+- **Mac-native.** Uses `NSPasteboard`, so pasted content works in any app.
 
 ---
 
