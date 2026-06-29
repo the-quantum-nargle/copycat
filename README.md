@@ -16,6 +16,7 @@
 
 ```bash
 brew tap the-quantum-nargle/copycat
+brew trust the-quantum-nargle/copycat
 brew install copycat
 ```
 
