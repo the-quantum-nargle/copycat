@@ -6,7 +6,7 @@
 
 **Copy anything from the terminal to your clipboard.**
 
-`copycat` is a tiny macOS CLI that reads files or piped input and puts them on your clipboard — text, images, or command output. No more selecting text in a terminal window or saving screenshots to disk just to paste them somewhere else.
+`copycat` is a tiny macOS CLI that reads files or piped input and puts them on your clipboard: text, images, or command output. No more selecting text in a terminal window or saving screenshots to disk just to paste them somewhere else.
 
 ---
 
